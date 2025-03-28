@@ -13,20 +13,20 @@ Die Architektur des Projekts umfasst folgende Komponenten:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{resources/images/Architektur.png}
+    \includegraphics[width=0.6\textwidth]{resources/images/Architektur.png}
     \caption{Architektur des Projekts}
 \end{figure}
 
 \section{Aufbauablauf}
 
 \subsection{Schritt 1: Infrastruktur mit Terraform}
-Zuerst müssen die netzwerke und Server mit Terraform erstellt werden. Hierzu wird ein Azure Resource Group erstellt, in der die Ressourcen gruppiert werden. Anschließend wird ein Virtual Network mit Subnetzen für die Anwendung und die Datenbank erstellt. Danach wird eine PostgreSQL Flexible Server Instanz mit privatem Netzwerkzugriff bereitgestellt. Daruf werden zwei VMs für die Webanwendung erstellt und ein Load Balancer konfiguriert. Abchsließend wird ein Monitoring Server erstellt.
+Zunächst wird die Infrastruktur mit Terraform bereitgestellt. Dazu wird eine Azure Resource Group erstellt, die als Container für alle Ressourcen dient. Anschließend wird ein virtuelles Netzwerk mit Subnetzen für die Anwendung und die Datenbank konfiguriert. Eine PostgreSQL Flexible Server Instanz wird mit privatem Netzwerkzugriff eingerichtet. Danach werden zwei virtuelle Maschinen für die Webanwendung erstellt und mit einem Load Balancer verbunden. Abschließend wird ein Monitoring-Server bereitgestellt, um die Überwachung der Anwendung zu ermöglichen.
 
 \subsection{Schritt 2: Konfiguration mit Ansible}
 Konfiguration der App VMs
 \begin{itemize}
     \item Installation von Node.js und PostgreSQL-Client auf den VMs.
-    \item Bereitstellung der Next.js-Anwendung aus einem Git-Repository.
+    \item Bereitstellung der Next.js-Anwendung aus dem Git-Repository.
     \item Konfiguration der Umgebungsvariablen für die Datenbankverbindung.
     \item Erstellung eines Systemd-Dienstes, um die Anwendung automatisch zu starten.
 \end{itemize}

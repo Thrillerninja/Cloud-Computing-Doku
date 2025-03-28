@@ -5,15 +5,16 @@
 \contentsline {section}{\numberline {2.2}Warum Cloud Computing?}{3}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Terraform}{4}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Ansible}{4}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Umsetzung}{6}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Architektur}{6}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Aufbauablauf}{7}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Schritt 1: Infrastruktur mit Terraform}{7}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Schritt 2: Konfiguration mit Ansible}{8}{subsection.3.2.2}%
-\contentsline {chapter}{\numberline {4}Fazit}{9}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Wann ist die Lösung sinnvoll?}{9}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Was ist der Aufwand?}{9}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Vorteile der Lösung}{9}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Nachteile der Lösung}{10}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung}{11}{chapter.5}%
+\contentsline {chapter}{\numberline {3}Umsetzung}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Architektur}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Aufbauablauf}{6}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Schritt 1: Infrastruktur mit Terraform}{6}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Schritt 2: Konfiguration mit Ansible}{6}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Fazit}{8}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Anwendungsszenarien und Eignung}{8}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Aufwand und Ressourcenbedarf}{8}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Stärken der Architektur}{9}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Herausforderungen und Einschränkungen}{9}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Zusammenfassung}{10}{section.4.5}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{11}{chapter*.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

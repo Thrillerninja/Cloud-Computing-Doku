@@ -9,7 +9,7 @@ In diesem Projekt wurde eine Webanwendung unter Nutzung von Cloud Computing Ans�
 \section{Was ist Cloud Computing?}
 Klassische IT-Infrastrukturen basieren auf physischen Servern und Rechenzentren, die vor Ort betrieben werden. Da diese jedoch oft teuer zu betreiben und schwer zu skalieren sind, setzen viele Unternehmen auf Cloud Computing.
 
-Cloud Computing bezeichnet die Bereitstellung von IT-Ressourcen wie Servern, Speicher, Datenbanken, Netzwerken und Software über das Internet. Es gibt drei Hauptmodelle:
+Cloud Computing bezeichnet die Bereitstellung von IT-Ressourcen wie Servern, Speicher, Datenbanken, Netzwerken und Software über das Internet. Es gibt drei Hauptmodelle\cite{mell2011nist,hurwitz2010cloud,zhang2010towards}:
 \begin{itemize}
     \item \textbf{Infrastructure as a Service (IaaS):} Bereitstellung von virtuellen Maschinen, Netzwerken und Speicher. Der Nutzer verwaltet die Infrastruktur selbst. Beispiele: AWS EC2, Azure Virtual Machines.
     \item \textbf{Platform as a Service (PaaS):} Bereitstellung einer Plattform für die Entwicklung und Bereitstellung von Anwendungen. Der Anbieter verwaltet die Infrastruktur, während der Nutzer sich auf die Anwendung konzentriert. Beispiele: Azure App Service, Google App Engine.
@@ -27,9 +27,9 @@ Die Cloud bietet zahlreiche Vorteile:
 \begin{itemize}
     \item \textbf{Skalierbarkeit:} Ressourcen können je nach Bedarf dynamisch angepasst werden.
     \item \textbf{Kostenersparnis:} Keine Investitionen in physische Hardware, Bezahlung nach Nutzung.
-    \item \textbf{Flexibilität:} Zugriff auf Ressourcen von überall.
+    \item \textbf{Flexibilität:} Zugriff auf Ressourcen von überall und jederzeit.
     \item \textbf{Automatisierung:} Tools wie Terraform und Ansible ermöglichen die einfache Verwaltung und Bereitstellung von Infrastruktur.
-\end{itemize}
+\end{itemize}\cite{ProCloud}
 
 Jedoch gibt es Nachteile bei der Nutzung von Cloud Computing:
 \begin{itemize}
@@ -37,9 +37,10 @@ Jedoch gibt es Nachteile bei der Nutzung von Cloud Computing:
     \item \textbf{Sicherheit:} Schutz sensibler Daten und Zugriffskontrolle sind kritisch.
     \item \textbf{Kosten:} Fehlende Kontrolle über die Ressourcennutzung kann zu hohen Kosten führen.
 \end{itemize}
+\cite{CloudcomputingCarticle}
 
 \section{Terraform}
-Terraform ist ein Open-Source-Tool zur Infrastrukturautomatisierung. Es ermöglicht die deklarative Beschreibung von Infrastruktur als Code (IaC). Mit Terraform können Ressourcen wie virtuelle Maschinen, Netzwerke und Datenbanken in verschiedenen Cloud-Anbietern wie AWS, Azure oder Google Cloud bereitgestellt werden. 
+Terraform ist ein Open-Source-Tool zur Infrastrukturautomatisierung. Es ermöglicht die deklarative Beschreibung von Infrastruktur als Code (IaC). Mit Terraform können Ressourcen wie virtuelle Maschinen, Netzwerke und Datenbanken in verschiedenen Cloud-Anbietern wie AWS, Azure oder Google Cloud bereitgestellt werden\cite{TerraformDocs}.
 
 Vorteile von Terraform:
 \begin{itemize}
@@ -49,7 +50,7 @@ Vorteile von Terraform:
 \end{itemize}
 
 \section{Ansible}
-Ansible ist ein Open-Source-Tool zur Konfigurationsverwaltung und Automatisierung. Es wird verwendet, um Software zu installieren, Konfigurationen zu ändern und Anwendungen bereitzustellen.
+Ansible ist ein Open-Source-Tool zur Konfigurationsverwaltung und Automatisierung. Es wird verwendet, um Software zu installieren, Konfigurationen zu ändern und Anwendungen bereitzustellen\cite{AnsibleDocs}.
 
 Folgende Features machen Ansible attraktiv:
 \begin{itemize}
