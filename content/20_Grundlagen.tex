@@ -19,10 +19,10 @@ Die Architektur des Projekts umfasst folgende Komponenten:
 
 \section{Aufbauablauf}
 
-\subsection{Schritt 1: Infrastruktur mit Terraform}
+\subsection*{Schritt 1: Infrastruktur mit Terraform}
 Zunächst wird die Infrastruktur mit Terraform bereitgestellt. Dazu wird eine Azure Resource Group erstellt, die als Container für alle Ressourcen dient. Anschließend wird ein virtuelles Netzwerk mit Subnetzen für die Anwendung und die Datenbank konfiguriert. Eine PostgreSQL Flexible Server Instanz wird mit privatem Netzwerkzugriff eingerichtet. Danach werden zwei virtuelle Maschinen für die Webanwendung erstellt und mit einem Load Balancer verbunden. Abschließend wird ein Monitoring-Server bereitgestellt, um die Überwachung der Anwendung zu ermöglichen.
 
-\subsection{Schritt 2: Konfiguration mit Ansible}
+\subsection*{Schritt 2: Konfiguration mit Ansible}
 Konfiguration der App VMs
 \begin{itemize}
     \item Installation von Node.js und PostgreSQL-Client auf den VMs.

@@ -548,6 +548,10 @@ INPUT ./resources/images/logo-dhbw.png
 INPUT ./resources/images/logo-dhbw.png
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
+INPUT ./resources/images/logo-dhbw.png
+INPUT ./resources/images/logo-dhbw.png
+INPUT ./resources/images/logo-dhbw.png
+INPUT ./resources/images/logo-dhbw.png
 INPUT ./content/20_Grundlagen.tex
 INPUT ./content/20_Grundlagen.tex
 INPUT ./content/20_Grundlagen.tex
