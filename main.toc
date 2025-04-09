@@ -14,5 +14,5 @@
 \contentsline {section}{\numberline {4.3}Stärken der Architektur}{10}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Herausforderungen und Einschränkungen}{10}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Zusammenfassung}{11}{section.4.5}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{12}{chapter*.7}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{12}{chapter*.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

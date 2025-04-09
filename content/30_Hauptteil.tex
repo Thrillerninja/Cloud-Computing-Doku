@@ -1,28 +1,27 @@
 \chapter{Fazit}
 
-Die im Rahmen dieses Projekts entwickelte Cloud-Infrastrukturlösung demonstriert die modenen Möglichkeiten um Software effektiv mittels DevOps-Praktiken in die Cloud zu briggen und in dieser zu managen. Die Implementierung einer vollständig automatisierten Bereitstellungspipeline mittels Terraform und Ansible schafft eine robuste Grundlage für skalierbare Webanwendungen.
+Die im Rahmen dieses Projekts entwickelte Cloud-Infrastrukturlösung demonstriert die modernen Möglichkeiten, um Software effektiv mittels DevOps-Praktiken in die Cloud zu bringen und in dieser zu Managen. Die Implementierung einer vollständig automatisierten Bereitstellungspipeline mittels Terraform und Ansible schafft eine robuste Grundlage für skalierbare Webanwendungen.
 
 \section{Anwendungsszenarien und Eignung}
 
-Das Projekt hat gezeigt das die Lösung besonders wertvoll für mittelgroße bis große Anwendungen ist, die folgende Anforderungen erfüllen:
+Das Projekt hat gezeigt, dass die Lösung besonders wertvoll für mittelgroße bis große Anwendungen ist, die folgende Anforderungen erfüllen:
 
 \begin{itemize}
-    \item Dynamisch skalierbare Infrastruktur zur Bewältigung schwankender Nutzerlast
-    \item Hohe Verfügbarkeit durch lastverteilte Redundanz der Anwendungsserver
+    \item Schwankender Nutzerlast wodurch von flexibler Skalierung profitiert werden kann
+    \item Hohe Verfügbarkeit durch Redundanz der Anwendungsserver benötigt wird
     \item Nachhaltige Entwicklungsprozesse mit wiederholbaren Bereitstellungsschritten
-    \item Professionelles Monitoring für proaktive Problemerkennung
 \end{itemize}
 
-Vor allem für Teams, die agil arbeiten und häufige Deployments durchführen, bietet dieser Ansatz erhebliche Vorteile durch die Standardisierung der Infrastruktur als Code.
+Vor allem für Teams, die agil arbeiten und häufige Deployments durchführen, bietet dieser Ansatz erhebliche Vorteile durch die Standardisierung der Infrastruktur als Code und der möglichkeiten zur automatischen Überführung von Änderungen in die Produktion.
 
 \section{Aufwand und Ressourcenbedarf}
 
 Die Implementierung der Lösung erfordert eine differenzierte Betrachtung des Aufwands:
 
 \begin{itemize}
-    \item \textbf{Initiale Einrichtung:} Der Aufbau der Terraform- und Ansible-Konfigurationen verlangt Fachwissen und eine präzise Planung der Infrastrukturkomponenten.
-    \item \textbf{Wartung und Weiterentwicklung:} Nach der initialen Einrichtung reduziert sich der Wartungsaufwand erheblich. Infrastrukturänderungen können durch Anpassungen der Konfigurationsdateien versioniert und getestet werden.
-    \item \textbf{Betriebskosten:} Die Cloud-Ressourcen verursachen laufende Kosten, die jedoch optimiert werden können.
+    \item \textbf{Initiale Einrichtung:} Der Aufbau der Terraform- und Ansible-Konfigurationen verlangt Fachwissen und eine präzise Planung der Infrastrukturkomponenten und ist relativ aufwendig.
+    \item \textbf{Wartung und Weiterentwicklung:} Nach der initialen Einrichtung reduziert sich der Wartungsaufwand erheblich. Infrastrukturänderungen können meist durch einfache Anpassungen der Konfigurationsdateien versioniert und getestet werden.
+    \item \textbf{Betriebsaufwand:} Sobald die Infrastruktur steht, ist der Betriebsaufwand gering. Die Überwachung und das Management der Ressourcen erfolgt automatisiert und kann durch Dashboards wie Grafana visualisiert werden. 
 \end{itemize}
 
 \section{Stärken der Architektur}

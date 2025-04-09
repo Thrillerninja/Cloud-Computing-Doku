@@ -470,7 +470,9 @@ INPUT ./resources/declaration.tex
 INPUT ./resources/declaration.tex
 INPUT resources/declaration.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
+INPUT ./main.toc
+INPUT ./main.toc
+INPUT main.toc
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -494,6 +496,8 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+OUTPUT main.toc
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
 INPUT ./resources/images/logo-dhbw.png
 INPUT ./resources/images/logo-dhbw.png
 INPUT ./resources/images/logo-dhbw.png
@@ -502,14 +506,6 @@ INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
-INPUT ./main.toc
-INPUT ./main.toc
-INPUT main.toc
-OUTPUT main.toc
-INPUT ./resources/images/logo-dhbw.png
-INPUT ./resources/images/logo-dhbw.png
-INPUT ./resources/images/logo-dhbw.png
-INPUT ./resources/images/logo-dhbw.png
 INPUT ./content/chapters.tex
 INPUT ./content/chapters.tex
 INPUT ./content/chapters.tex
